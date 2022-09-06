@@ -1,0 +1,87 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(07eb9bf4-4aa1-4954-b42b-976f9a7ab582), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@333a2df2, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Joshua\Documents\Uni\COMP-3000\comp3000-haslang\target\scala-2.12\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSyntaxAnalysisTests in library/src/test/scala/haslang:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- equal expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- less than expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- addition expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- subtraction expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiplication expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- division expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- integer expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- true expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- false expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- identifier expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parenthesized expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- application expression 1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse succeeded with "IdnUse(a)" instead of expected "AppExp(IdnUse(a),IdnUse(b))" at ' ' (1,2) (SyntaxAnalysisTests.scala:72)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- expression containing an application expression *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse succeeded with "PlusExp(IntExp(1),IdnUse(foo))" instead of expected "PlusExp(IntExp(1),AppExp(IdnUse(foo),IntExp(2)))" at ' ' (1,8) (SyntaxAnalysisTests.scala:76)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- if expression *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at 'i' (1,1) (SyntaxAnalysisTests.scala:80)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- lambda expression *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at '\' (1,1) (SyntaxAnalysisTests.scala:84)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- basic type *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'int' expected but 'B' found" at 'B' (1,1) (SyntaxAnalysisTests.scala:90)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- parsing unit type *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'int' expected but '(' found" at '(' (1,1) (SyntaxAnalysisTests.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- parsing list type *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'int' expected but '[' found" at '[' (1,1) (SyntaxAnalysisTests.scala:98)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- parsing tuple type *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'int' expected but '(' found" at '(' (1,1) (SyntaxAnalysisTests.scala:102)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- parsing function type *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'int' expected but 'I' found" at 'I' (1,1) (SyntaxAnalysisTests.scala:106)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- parsing bracketted function type *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'int' expected but '(' found" at '(' (1,1) (SyntaxAnalysisTests.scala:110)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- empty list *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at '[' (1,1) (SyntaxAnalysisTests.scala:114)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- cons expression *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse succeeded with "IntExp(3)" instead of expected "ConsExp(IntExp(3),ListExp(Vector()))" at ' ' (1,2) (SyntaxAnalysisTests.scala:118)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- list expression *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at '[' (1,1) (SyntaxAnalysisTests.scala:122)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- tuple expression *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "')' expected but ',' found" at ',' (1,3) (SyntaxAnalysisTests.scala:126)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- underscore pattern *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "string matching regex '[0-9]+' expected but '_' found" at '_' (1,1) (SyntaxAnalysisTests.scala:130)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- literal pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- list pattern *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "string matching regex '[0-9]+' expected but '[' found" at '[' (1,1) (SyntaxAnalysisTests.scala:138)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- cons pattern *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse succeeded with "LiteralPat(IntExp(3))" instead of expected "ConsPat(LiteralPat(IntExp(3)),ListPat(Vector()))" at ' ' (1,2) (SyntaxAnalysisTests.scala:142)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- tuple pattern *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "string matching regex '[0-9]+' expected but '(' found" at '(' (1,1) (SyntaxAnalysisTests.scala:146)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple function line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'f' found" at 'f' (1,1) (SyntaxAnalysisTests.scala:150)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- more complicated function line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'l' found" at 'l' (1,1) (SyntaxAnalysisTests.scala:154)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple variable *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'x' found" at 'x' (1,1) (SyntaxAnalysisTests.scala:158)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- function with two lines *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'i' found" at 'i' (1,1) (SyntaxAnalysisTests.scala:162)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- function with three lines *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'f' found" at 'f' (1,1) (SyntaxAnalysisTests.scala:171)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- one definition *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'x' found" at 'x' (1,1) (SyntaxAnalysisTests.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- one definition with lambda *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'i' found" at 'i' (1,1) (SyntaxAnalysisTests.scala:193)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- two definitions *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'x' found" at 'x' (1,1) (SyntaxAnalysisTests.scala:203)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- let with one definition *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at 'l' (1,1) (SyntaxAnalysisTests.scala:213)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- let with two definitions *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at 'l' (1,1) (SyntaxAnalysisTests.scala:225)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- program with two definitions including lambda *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at 'l' (1,1) (SyntaxAnalysisTests.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- program with definitions including lambda and multiline fun *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at 'l' (1,1) (SyntaxAnalysisTests.scala:260)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 396 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 42[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 12, failed 30, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 30 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	haslang.SyntaxAnalysisTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 9 Sep. 2021, 9:44:18 pm[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,8 @@
+let x   :: Int        = 62;
+inc :: Int -> Int = \a :: Int -> a + a;
+sum :: [Int] -> Int
+sum [2, 4, 8, 16, 32] = 5.
+sum [] = 0.
+sum h:t = h + sum t
+in
+if (2 + 4 + 8 + 16 + 32 == x) then 32 - 16 - 8 - 4 - 2 == 2  else idx invalid

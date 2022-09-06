@@ -1,0 +1,15 @@
+run test/block2.fun
+clean
+exit
+compile
+test
+run test/simple.hal
+run test/block.hal
+run test/function.hal
+run test/nesting.hal
+compile
+test
+compile
+test
+clean
+exit

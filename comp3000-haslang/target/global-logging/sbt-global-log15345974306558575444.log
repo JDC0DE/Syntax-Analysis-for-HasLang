@@ -1,0 +1,64 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(daf8b525-3921-4ad0-90f7-2cac8559301f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@38d4488c, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Joshua\Documents\Uni\COMP-3000\comp3000-haslang\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSyntaxAnalysisTests in library/src/test/scala/haslang:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- equal expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- less than expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- addition expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- subtraction expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiplication expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- division expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- integer expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- true expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- false expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- identifier expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parenthesized expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- application expression 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- expression containing an application expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- if expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lambda expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- basic type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing unit type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing list type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing tuple type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing function type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing bracketted function type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- empty list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cons expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- list expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- tuple expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- underscore pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- literal pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- list pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cons pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- tuple pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple function line[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- more complicated function line[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple variable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- function with two lines[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- function with three lines[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one definition[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- one definition with lambda[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- two definitions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- let with one definition[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- let with two definitions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- program with two definitions including lambda[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- program with definitions including lambda and multiline fun[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #3 - should ignore 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #6 - / right Associtivity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #7 - - right Associtivity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #8 - * Left Associtivity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #9 - + Left Associtivity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Precedence and Associtivity Test #10 - : Right Associtivity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 494 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 52[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 52, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 25 Sep. 2021, 11:03:22 pm[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

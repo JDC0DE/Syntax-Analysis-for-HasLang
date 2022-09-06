@@ -1,0 +1,71 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(e398283c-fb84-4050-8865-bd0e1073bad1), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@31a80c88, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Joshua\Documents\Uni\COMP-3000\comp3000-haslang\target\scala-2.12\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSyntaxAnalysisTests in library/src/test/scala/haslang:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- equal expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- less than expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- addition expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- subtraction expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiplication expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- division expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- integer expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- true expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- false expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- identifier expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parenthesized expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- application expression 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- expression containing an application expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- if expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lambda expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- basic type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing unit type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing list type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing tuple type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing function type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- parsing bracketted function type *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse succeeded with "TupleType(Vector(FunType(IntType(),BoolType())))" instead of expected "FunType(FunType(IntType(),BoolType()),ListType(IntType()))" at '-' (1,12) (SyntaxAnalysisTests.scala:110)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- empty list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cons expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- list expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- tuple expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- underscore pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- literal pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- list pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cons pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- tuple pattern[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple function line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'f' found" at 'f' (1,1) (SyntaxAnalysisTests.scala:150)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- more complicated function line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'l' found" at 'l' (1,1) (SyntaxAnalysisTests.scala:154)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- simple variable *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'x' found" at 'x' (1,1) (SyntaxAnalysisTests.scala:158)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- function with two lines *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'i' found" at 'i' (1,1) (SyntaxAnalysisTests.scala:162)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- function with three lines *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'f' found" at 'f' (1,1) (SyntaxAnalysisTests.scala:171)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- one definition *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'x' found" at 'x' (1,1) (SyntaxAnalysisTests.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- one definition with lambda *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'i' found" at 'i' (1,1) (SyntaxAnalysisTests.scala:193)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- two definitions *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "'fixme' expected but 'x' found" at 'x' (1,1) (SyntaxAnalysisTests.scala:203)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- let with one definition *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at 'l' (1,1) (SyntaxAnalysisTests.scala:213)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- let with two definitions *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at 'l' (1,1) (SyntaxAnalysisTests.scala:225)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- program with two definitions including lambda *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at 'l' (1,1) (SyntaxAnalysisTests.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- program with definitions including lambda and multiline fun *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Parse failure with message "exp expected" at 'l' (1,1) (SyntaxAnalysisTests.scala:260)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 447 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 42[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 29, failed 13, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 13 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	haslang.SyntaxAnalysisTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 15 Sep. 2021, 12:01:27 am[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Joshua\Documents\Uni\COMP-3000\comp3000-haslang\src\test\scala\SyntaxAnalysisTests.scala:528:216: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m                """) should parseTo[Vector[Defn]] (Vector(Defn(IdnDef("a",ListType(IntType())),Vector(FunLine(Vector(),ListExp(Vector(IntExp(2), IntExp(4), IntExp(8)))))), Defn(IdnDef("b",BoolType()),Vector(FunLine(,Vector(),BoolExp(true)))), Defn(IdnDef("c",UnitType()),Vector(FunLine(,Vector(),TupleExp(Vector(IntExp(2), IntExp(4), IntExp(8)))))), Defn(IdnDef("b",BoolType()),Vector(FunLine(,Vector(),BoolExp(false))))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Joshua\Documents\Uni\COMP-3000\comp3000-haslang\src\test\scala\SyntaxAnalysisTests.scala:529:5: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
